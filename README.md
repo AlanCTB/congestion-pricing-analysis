@@ -244,6 +244,7 @@ dow_counts <- od_df %>%
   }) %>%
   ungroup() %>%
   count(year, month, day_of_week, name = "n_days")
+```
 #### 4.4 Flag CBD stations using the geofence
 
 To figure out which trips are **“CBD-bound,”** I needed to know which station complexes lie inside the congestion zone.
