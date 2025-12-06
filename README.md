@@ -77,9 +77,6 @@ Station complex IDs, stop names, boroughs, routes, CBD flag, and a Georeference 
 
 ---
 
-## 3) Crash analysis workflow (QGIS + basic aggregation)
-
-
 ### 3) Crash analysis workflow (QGIS + basic aggregation)
 
 This mirrors what I wrote up for Assignment 2, but extended to support the before/after framing in this project.
@@ -121,7 +118,7 @@ Then, in the Field Calculator, I computed **percent change per ZIP/MODZCTA**:
 
 ```text
 pct_change = 100 * (n_2025 - n_2024) / n_2024
-
+``` 
 #### 3.4 CBD vs non-CBD and cluster zones
 
 To make the story more interpretable, I defined six broad clusters:
