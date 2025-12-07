@@ -185,10 +185,10 @@ All of this is done in **R**, with:
 
 ---
 You can also execute the script in the order of:
-**riderships_calculations.R**
-**aggregating_ridership.R**
-**spitting_Georefence.R**
-**NTA_changes.R**
+- **riderships_calculations.R**
+- **aggregating_ridership.R**
+- **spitting_Georefence.R**
+- **NTA_changes.R**
 #### 4.1 Load and filter the OD datasets
 
 **Source files:**
@@ -215,8 +215,6 @@ This produced:
 
 The raw **2025** file contains more OD–time bins than 2024, so **directly summing** would artificially inflate changes.  
 To avoid this, I created a **balanced panel**.
-
-I:
 
 - Defined a key:  
   `(month, day_of_week, hour_of_day, origin_station_complex_id, destination_station_complex_id)`.
