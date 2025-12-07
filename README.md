@@ -175,7 +175,7 @@ These crash maps provide the safety story that the ridership analysis later mirr
 
 This section describes how I processed the MTA OD ridership data to estimate changes in CBD-bound subway trips at both **station** and **neighborhood** levels.  
 
-All of this is done in **R**, mainly with:
+All of this is done in **R**, with:
 
 - `dplyr`
 - `readr`
@@ -184,7 +184,11 @@ All of this is done in **R**, mainly with:
 - `lubridate`
 
 ---
-
+You can also execute the script in the order of:
+**riderships_calculations.R**
+**aggregating_ridership.R**
+**spitting_Georefence.R**
+**NTA_changes.R**
 #### 4.1 Load and filter the OD datasets
 
 **Source files:**
