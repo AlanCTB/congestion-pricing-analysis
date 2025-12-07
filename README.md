@@ -350,5 +350,5 @@ These are the inputs for the **NTA-level choropleth** showing where CBD-bound ri
 
 An **opinion chart** (Datawrapper) ties the technical findings back to politics, showing that the program’s approval has improved as the benefits became visible.
 
-Throughout our blog, each figure is tied to the workflow: crashes and ridership are treated as two sides of the same spatial story—where transit is strong, congestion pricing shows up as both fewer crashes and more subway trips into the CBD; where transit is weak, cars fill the gap and safety gains are harder to find.
+Throughout our blog, each figure is tied to the workflow: crashes and ridership are treated as two sides of the same spatial story—where transit is strong, congestion pricing shows up as both fewer crashes and more subway trips into the CBD. Where transit is weak, cars fill the gap and safety gains are harder to find. The opinion chart is presented to enforce the overall messaging.
 
