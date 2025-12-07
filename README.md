@@ -81,10 +81,9 @@ Station complex IDs, stop names, boroughs, routes, CBD flag, and a Georeference 
 <https://sri.siena.edu/wp-content/uploads/2025/07/SNY1224ALL-Crosstabs_UpdatedMethodology.pdf>
 
 ### Vehicle Entries
-
-- We couldn't find raw numbers for Vehicle Entries into the CBD before the program, so we 
+We couldn't find raw numbers for Vehicle Entries into the CBD before the program, so we used the numbers from the articles below:  
 <https://www.governor.ny.gov/news/six-months-governor-hochul-highlights-success-congestion-pricing-traffic-down-business-and>
----
+
 
 ### 3) Crash analysis workflow (QGIS + basic aggregation)
 
