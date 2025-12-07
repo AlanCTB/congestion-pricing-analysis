@@ -1,7 +1,7 @@
 Author: Alan Chen & Josiah  
 Date: Dec 6 2025  
 
-This document describes the data sources and general steps I followed in R, QGIS & Datawrapper to produce the maps and charts used in the final congestion pricing project.
+This document describes the data sources and general steps we followed in R, QGIS & Datawrapper to produce the maps and charts used in the final congestion pricing project.
 
 ---
 
@@ -13,10 +13,10 @@ This document describes the data sources and general steps I followed in R, QGIS
 
 **Timeframes:**
 
-- Vehicle entries: 
+- Vehicle entries: 2024 - June 2025 (comparisions used in the article)
 - Crashes: Jan 2024 – Oct 2025 (used for year-over-year before/after comparisons).
 - Subway ridership: Jan–Sep 2024 vs. Jan–Sep 2025.
-- Polling numbers: 
+- Polling numbers: Apr 2024 - March 2025 (Polling dates)
 
 **Units of analysis:**
 
