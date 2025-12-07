@@ -20,10 +20,10 @@ This document describes the data sources and general steps I followed in R, QGIS
 
 **Units of analysis:**
 
-- Vehicle entries: 
-- Crashes: primarily ZIP/MODZCTA and custom clusters (end-of-line areas in Queens and the Bronx), with a separate CBD vs. non-CBD cut.
+- Vehicle entries: The article contained raw vehicle entries into the CBD.
+- Crashes: primarily ZIP/MODZCTA and custom clusters (end-of-line areas in Queens and the Bronx), with a separate CBD vs. non-CBD.
 - Subway ridership: station complexes (MTA station_complex_id) and NYC NTAs (NTA2020) for neighborhood-level aggregation.
-- Polling numbers:
+- Polling numbers: Public Opinion polling for New Yorkers support for Congestion Pricing. 
 
 ---
 
@@ -73,13 +73,20 @@ Station complex IDs, stop names, boroughs, routes, CBD flag, and a Georeference 
 
 ### Opinion / polling data
 
-- Polling time series on congestion pricing approval vs. disapproval (source noted in figure caption).
+- The polling numbers are pulled from the pollsters below. 
+- Polling time series on congestion pricing approval vs. disapproval.
+<https://sri.siena.edu/wp-content/uploads/2025/07/SNY0424-Crosstabs_UpdatedMethodology.pdf>
+<https://sri.siena.edu/wp-content/uploads/2025/07/SNY0325-ALL-Crosstabs_UpdatedMethodology.pdf>
+<https://sri.siena.edu/wp-content/uploads/2025/07/SNY1224ALL-Crosstabs_UpdatedMethodology.pdf>
 
+### Vehicle Entries
+
+- We couldn't find raw numbers for Vehicle Entries into the CBD before the program, so we 
+<https://www.governor.ny.gov/news/six-months-governor-hochul-highlights-success-congestion-pricing-traffic-down-business-and>
 ---
 
 ### 3) Crash analysis workflow (QGIS + basic aggregation)
 
-This mirrors what I wrote up for Assignment 2, but extended to support the before/after framing in this project.
 
 #### 3.1 QGIS setup
 
@@ -215,7 +222,7 @@ I:
   - `od_2024_balanced`
   - `od_2025_balanced`
 
-This ensures I’m comparing **like-for-like OD–hour cells** between years.
+This way ensures that I’m comparing **like-for-like OD–hour cells** between years.
 
 ---
 
@@ -343,5 +350,5 @@ These are the inputs for the **NTA-level choropleth** showing where CBD-bound ri
 
 An **opinion chart** (Datawrapper) ties the technical findings back to politics, showing that the program’s approval has improved as the benefits became visible.
 
-Throughout the blog, each figure is tied to this workflow: crashes and ridership are treated as two sides of the same spatial story—where transit is strong, congestion pricing shows up as both fewer crashes and more subway trips into the CBD; where transit is weak, cars fill the gap and safety gains are harder to find.
+Throughout our blog, each figure is tied to the workflow: crashes and ridership are treated as two sides of the same spatial story—where transit is strong, congestion pricing shows up as both fewer crashes and more subway trips into the CBD; where transit is weak, cars fill the gap and safety gains are harder to find.
 
